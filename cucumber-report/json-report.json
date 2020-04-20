@@ -1,0 +1,640 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#  @testUserStory"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2737486222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "The User can select performances using calendar shortcuts instead of date picker",
+        "description": "",
+        "id": "user-stories-prepared-in-the-project;the-user-can-select-performances-using-calendar-shortcuts-instead-of-date-picker",
+        "after": [
+          {
+            "result": {
+              "duration": 657361005,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1347466203,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "website \"https://www.bilesuparadize.lv/lv/\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bilesuparadize.lv/lv/",
+                  "offset": 9
+                }
+              ],
+              "location": "userStory_StepDefs.openWebsite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369398725,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "dropdown \"calendar\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "calendar",
+                  "offset": 10
+                }
+              ],
+              "location": "userStory_StepDefs.dropdownIsOpened(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278775343,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "date option \"next 14 days\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "next 14 days",
+                  "offset": 13
+                }
+              ],
+              "location": "userStory_StepDefs.dateOptionIsSelected(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611810319,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "shows are filtered for next 14 days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14",
+                  "offset": 28
+                }
+              ],
+              "location": "userStory_StepDefs.showsAreFilteredForNextDays(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#  @testUserStory"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2105473237,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "The User can select performances using calendar date picker",
+        "description": "",
+        "id": "user-stories-prepared-in-the-project;the-user-can-select-performances-using-calendar-date-picker",
+        "after": [
+          {
+            "result": {
+              "duration": 673151691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3041767884,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "website \"https://www.bilesuparadize.lv/lv/\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bilesuparadize.lv/lv/",
+                  "offset": 9
+                }
+              ],
+              "location": "userStory_StepDefs.openWebsite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127381643,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "dropdown \"events\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "events",
+                  "offset": 10
+                }
+              ],
+              "location": "userStory_StepDefs.dropdownIsOpened(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241146434,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "event option \"all events\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all events",
+                  "offset": 14
+                }
+              ],
+              "location": "userStory_StepDefs.eventOptionIsSelected(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1517410318,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "events are filtered by \"first day of next month\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first day of next month",
+                  "offset": 24
+                }
+              ],
+              "location": "userStory_StepDefs.eventsAreFilteredEndOfMonth(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16967421,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "events filtered by \"first day of next month\" are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first day of next month",
+                  "offset": 20
+                }
+              ],
+              "location": "userStory_StepDefs.eventsFilteredByAreShown(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 19,
+            "value": "#  @testUserStory"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2098498165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "The User can filter performances by city",
+        "description": "",
+        "id": "user-stories-prepared-in-the-project;the-user-can-filter-performances-by-city",
+        "after": [
+          {
+            "result": {
+              "duration": 777201160,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1356649120,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "website \"https://www.bilesuparadize.lv/lv/\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bilesuparadize.lv/lv/",
+                  "offset": 9
+                }
+              ],
+              "location": "userStory_StepDefs.openWebsite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184811594,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "dropdown \"events\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "events",
+                  "offset": 10
+                }
+              ],
+              "location": "userStory_StepDefs.dropdownIsOpened(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284708483,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "event option \"all events\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all events",
+                  "offset": 14
+                }
+              ],
+              "location": "userStory_StepDefs.eventOptionIsSelected(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1142031149,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "events are filtered by city \"Aizkraukle\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aizkraukle",
+                  "offset": 29
+                }
+              ],
+              "location": "userStory_StepDefs.eventsAreFilteredBy(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14562937,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "events only in city \"Aizkraukle\" are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aizkraukle",
+                  "offset": 21
+                }
+              ],
+              "location": "userStory_StepDefs.eventsOnlyInAreShown(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 27,
+            "value": "#  @testUserStory"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2106454570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "The User can filter performances by category",
+        "description": "",
+        "id": "user-stories-prepared-in-the-project;the-user-can-filter-performances-by-category",
+        "after": [
+          {
+            "result": {
+              "duration": 640610937,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1321154473,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "website \"https://www.bilesuparadize.lv/lv/\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bilesuparadize.lv/lv/",
+                  "offset": 9
+                }
+              ],
+              "location": "userStory_StepDefs.openWebsite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143104309,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "dropdown \"events\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "events",
+                  "offset": 10
+                }
+              ],
+              "location": "userStory_StepDefs.dropdownIsOpened(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355670880,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "event option \"all events\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all events",
+                  "offset": 14
+                }
+              ],
+              "location": "userStory_StepDefs.eventOptionIsSelected(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1137171169,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "events are filtered by category \"Teātris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teātris",
+                  "offset": 33
+                }
+              ],
+              "location": "userStory_StepDefs.eventsAreFilteredByCategory(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10772406,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "events only by category \"Teātris\" are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teātris",
+                  "offset": 25
+                }
+              ],
+              "location": "userStory_StepDefs.eventsOnlyByCategoryAreShown(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 35,
+            "value": "#  @testUserStory"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2157199150,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "The User can filter performances by location",
+        "description": "",
+        "id": "user-stories-prepared-in-the-project;the-user-can-filter-performances-by-location",
+        "after": [
+          {
+            "result": {
+              "duration": 656373797,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1374731749,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "website \"https://www.bilesuparadize.lv/lv/\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bilesuparadize.lv/lv/",
+                  "offset": 9
+                }
+              ],
+              "location": "userStory_StepDefs.openWebsite(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176896618,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "dropdown \"events\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "events",
+                  "offset": 10
+                }
+              ],
+              "location": "userStory_StepDefs.dropdownIsOpened(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252195556,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "event option \"all events\" is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "all events",
+                  "offset": 14
+                }
+              ],
+              "location": "userStory_StepDefs.eventOptionIsSelected(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131617082,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "events are filtered by location \"ARĒNA RĪGA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ARĒNA RĪGA",
+                  "offset": 33
+                }
+              ],
+              "location": "userStory_StepDefs.eventsAreFilteredByLocation(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34906281,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "events only by location \"ARĒNA RĪGA\" are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ARĒNA RĪGA",
+                  "offset": 25
+                }
+              ],
+              "location": "userStory_StepDefs.eventsOnlyByLocationAreShown(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User stories prepared in the project",
+    "description": "",
+    "id": "user-stories-prepared-in-the-project",
+    "keyword": "Feature",
+    "uri": "userstory.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@UserStories"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="31.082919">
+<testcase classname="User stories prepared in the project" name="The User can select performances using calendar shortcuts instead of date picker" time="6.002298">
+<system-out><![CDATA[Given website "https://www.bilesuparadize.lv/lv/" is opened.................passed
+When dropdown "calendar" is opened..........................................passed
+And date option "next 14 days" is selected..................................passed
+Then shows are filtered for next 14 days....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User stories prepared in the project" name="The User can select performances using calendar date picker" time="7.723299">
+<system-out><![CDATA[Given website "https://www.bilesuparadize.lv/lv/" is opened.................passed
+And dropdown "events" is opened.............................................passed
+And event option "all events" is selected...................................passed
+When events are filtered by "first day of next month".......................passed
+Then events filtered by "first day of next month" are shown.................passed
+]]></system-out>
+</testcase>
+<testcase classname="User stories prepared in the project" name="The User can filter performances by city" time="5.858463">
+<system-out><![CDATA[Given website "https://www.bilesuparadize.lv/lv/" is opened.................passed
+And dropdown "events" is opened.............................................passed
+And event option "all events" is selected...................................passed
+When events are filtered by city "Aizkraukle"...............................passed
+Then events only in city "Aizkraukle" are shown.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User stories prepared in the project" name="The User can filter performances by category" time="5.714939">
+<system-out><![CDATA[Given website "https://www.bilesuparadize.lv/lv/" is opened.................passed
+And dropdown "events" is opened.............................................passed
+And event option "all events" is selected...................................passed
+When events are filtered by category "Teātris"..............................passed
+Then events only by category "Teātris" are shown............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User stories prepared in the project" name="The User can filter performances by location" time="5.78392">
+<system-out><![CDATA[Given website "https://www.bilesuparadize.lv/lv/" is opened.................passed
+And dropdown "events" is opened.............................................passed
+And event option "all events" is selected...................................passed
+When events are filtered by location "ARĒNA RĪGA"...........................passed
+Then events only by location "ARĒNA RĪGA" are shown.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
